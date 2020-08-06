@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap-4.5.1-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h3>hamburger rendelés</h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Feltét</label>
+                        <input type="text" name="top-input" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Mennyiség</label>
+                        <input type="number" name='amount-input' value="1"
+                        class="form-control">
+                    <small class="form-text text-muted">Minimum 1, maximum 10 db</small>
+                    </div>
+                    <div class="form-group">
+                        Fizetendő: <span class="show-amount">0</span> Ft
+                    </div>
+                    <button onclick="calcAmount()" type="button" class="btn btn-primary">megrendelés</button>
+                </form>
+            </div>
+            <div class="col-3">
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/scope.js"></script>
+</body>
+
+</html>
