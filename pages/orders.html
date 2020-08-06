@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="pages/products.html">Product</a></li>
+        <li><a href="pages/orders.html">Orders</a></li>
+        <li><a href="/about.html">About</a></li>
+    </ul>
+    <h1>orders</h1>
+
+
+
+    <div>
+        <form>
+            <fieldset>
+                <legend>Személyes adatok</legend>
+                <div><label for="name">Név: *</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email cím: *</label>
+                    <input id="email" name="email" type="email" required>
+
+                </div>
+
+                <div><label for="address">Cím: *</label>
+                    <input id="address" name="address" type="text" required>
+
+                </div>
+                <div><label for="comment">Megjegyzés: *</label>
+                    <textarea name="comment" id="comment" rows="5"></textarea>
+                </div>
+
+            </fieldset>
+
+
+            <fieldset>
+                <span>Extra feltét:</span>
+                <legend>Termék adatok</legend>
+
+                <div>
+                    <input checked id="nothing" name="feltét" type="radio" value="0">
+                    <label for="nothing">Nem kérek</label>
+                </div>
+
+                <div>
+                    <input checked id="cheese" name="feltét" type="radio" value="300">
+                    <label for="cheese">feltét 1</label>
+                </div>
+
+                <div>
+                    <input checked id="double-cheese" name="feltét" type="radio" value="600">
+                    <label for="double-cheese">feltét 2</label>
+                </div>
+
+                <div>
+                    <input checked id="double-meat" name="feltét" type="radio" value="1000">
+                    <label for="double-meat">feltét 3</label>
+                </div>
+
+
+            </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
